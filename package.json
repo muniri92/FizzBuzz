@@ -1,0 +1,27 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Web application that takes a collection of values, and return the division performed on each value.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muniri92/FizzBuzz.git"
+  },
+  "author": "Munir Ibrahim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muniri92/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/muniri92/FizzBuzz#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
